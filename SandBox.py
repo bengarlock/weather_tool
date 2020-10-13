@@ -1,5 +1,6 @@
 import requests
 import json
+from config import api_key
 
 zip_code = "10128"
 country_code = "us"
