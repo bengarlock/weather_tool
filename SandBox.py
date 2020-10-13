@@ -4,7 +4,7 @@ from config import api_key
 
 zip_code = "10128"
 country_code = "us"
-api_url = f"http://api.openweathermap.org/data/2.5/weather?zip={zip_code},{country_code}&appid={api_key}"
+api_url = f"http://api.openweathermap.org/data/2.5/weather?zip={zip_code},{country_code}&appid={api_key()}"
 
 
 def get_weather():
